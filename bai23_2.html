@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5c4d3452c00be4600819c0ff51de1747 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5c4d3452c00be4600819c0ff51de1747" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5c4d3452c00be4600819c0ff51de1747 = L.map(
+                "map_5c4d3452c00be4600819c0ff51de1747",
+                {
+                    center: [10.7725301, 106.6980365],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0736c4b6969600b13dd72bbde0cb377b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0736c4b6969600b13dd72bbde0cb377b.addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+            var marker_7262a328ff8345dbf67d46dee3a634a2 = L.marker(
+                [10.7725301, 106.6980365],
+                {
+}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+        var popup_321fa1b8f737ed9717abf1b7031dd515 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4611d12764d9ef4199eec1f10f95abcf = $(`<div id="html_4611d12764d9ef4199eec1f10f95abcf" style="width: 100.0%; height: 100.0%;">Ben Thanh Market, Ho Chi Minh City</div>`)[0];
+                popup_321fa1b8f737ed9717abf1b7031dd515.setContent(html_4611d12764d9ef4199eec1f10f95abcf);
+            
+        
+
+        marker_7262a328ff8345dbf67d46dee3a634a2.bindPopup(popup_321fa1b8f737ed9717abf1b7031dd515)
+        ;
+
+        
+    
+    
+            var marker_579af06d470820c8c4f95468380e7a28 = L.marker(
+                [10.8179793, 106.6562645],
+                {
+}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+        var popup_73dddf0db6e8735323f4e4236e85bdae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_390e253c0eb6af3df8eb9a350261ea8a = $(`<div id="html_390e253c0eb6af3df8eb9a350261ea8a" style="width: 100.0%; height: 100.0%;">Tan Son Nhat Airport, Ho Chi Minh City</div>`)[0];
+                popup_73dddf0db6e8735323f4e4236e85bdae.setContent(html_390e253c0eb6af3df8eb9a350261ea8a);
+            
+        
+
+        marker_579af06d470820c8c4f95468380e7a28.bindPopup(popup_73dddf0db6e8735323f4e4236e85bdae)
+        ;
+
+        
+    
+    
+            var marker_8818bcdf2d6bea0c08c1b70343cefb2c = L.marker(
+                [10.7704843, 106.6695631],
+                {
+}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+        var popup_8fa76d930d88ed23bd153e26cbd55e05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9faae95924bd076d4533f708627c47a7 = $(`<div id="html_9faae95924bd076d4533f708627c47a7" style="width: 100.0%; height: 100.0%;">Vạn Hạnh Mall, Ho Chi Minh City</div>`)[0];
+                popup_8fa76d930d88ed23bd153e26cbd55e05.setContent(html_9faae95924bd076d4533f708627c47a7);
+            
+        
+
+        marker_8818bcdf2d6bea0c08c1b70343cefb2c.bindPopup(popup_8fa76d930d88ed23bd153e26cbd55e05)
+        ;
+
+        
+    
+    
+            var marker_252c388652be272bc5f17b4c5eb7682b = L.marker(
+                [10.7566964, 106.6597263],
+                {
+}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+        var popup_ad255d38eca438eed1b518e9c006f976 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e5ccfa2aac7e227439e62c9bfca6efd = $(`<div id="html_9e5ccfa2aac7e227439e62c9bfca6efd" style="width: 100.0%; height: 100.0%;">Bệnh viện Chợ Rẫy, Ho Chi Minh City</div>`)[0];
+                popup_ad255d38eca438eed1b518e9c006f976.setContent(html_9e5ccfa2aac7e227439e62c9bfca6efd);
+            
+        
+
+        marker_252c388652be272bc5f17b4c5eb7682b.bindPopup(popup_ad255d38eca438eed1b518e9c006f976)
+        ;
+
+        
+    
+    
+            var marker_2509b0f8bf486f431039f67082b880b3 = L.marker(
+                [10.7950845, 106.7219139],
+                {
+}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+        var popup_05186593aa38a425ffc3dc52795aee3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f4276821b93618762e767a8dfc998b8 = $(`<div id="html_8f4276821b93618762e767a8dfc998b8" style="width: 100.0%; height: 100.0%;">Landmark 81, Ho Chi Minh City</div>`)[0];
+                popup_05186593aa38a425ffc3dc52795aee3b.setContent(html_8f4276821b93618762e767a8dfc998b8);
+            
+        
+
+        marker_2509b0f8bf486f431039f67082b880b3.bindPopup(popup_05186593aa38a425ffc3dc52795aee3b)
+        ;
+
+        
+    
+    
+            var marker_e71b0e008c2b1bd51a349655755f38eb = L.marker(
+                [10.7748307, 106.6932718],
+                {
+}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+        var popup_920905a77fc5dc2f6eef40bf5540852b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af2d1f9417dd4e89a898650d75f1f49e = $(`<div id="html_af2d1f9417dd4e89a898650d75f1f49e" style="width: 100.0%; height: 100.0%;">Công viên Tao Đàn, Ho Chi Minh City</div>`)[0];
+                popup_920905a77fc5dc2f6eef40bf5540852b.setContent(html_af2d1f9417dd4e89a898650d75f1f49e);
+            
+        
+
+        marker_e71b0e008c2b1bd51a349655755f38eb.bindPopup(popup_920905a77fc5dc2f6eef40bf5540852b)
+        ;
+
+        
+    
+    
+            var marker_21d4bc87d4d559b332ac500c0b2bc2e7 = L.marker(
+                [10.7792374, 106.6991514],
+                {
+}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+        var popup_4a9e4f1bb7c2fde5c22bd9920b3d48ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_485d7be2f108b8ac75a6a608cb762a3e = $(`<div id="html_485d7be2f108b8ac75a6a608cb762a3e" style="width: 100.0%; height: 100.0%;">Nhà thờ Đức Bà, Ho Chi Minh City</div>`)[0];
+                popup_4a9e4f1bb7c2fde5c22bd9920b3d48ce.setContent(html_485d7be2f108b8ac75a6a608cb762a3e);
+            
+        
+
+        marker_21d4bc87d4d559b332ac500c0b2bc2e7.bindPopup(popup_4a9e4f1bb7c2fde5c22bd9920b3d48ce)
+        ;
+
+        
+    
+    
+            var marker_bf04717348a739d68187f2a09022f315 = L.marker(
+                [10.7806054, 106.7006741],
+                {
+}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+        var popup_8a640b93c3e467044fe9be0c1acbd339 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcd72efa3a1960321b870e6ac31e1d5b = $(`<div id="html_fcd72efa3a1960321b870e6ac31e1d5b" style="width: 100.0%; height: 100.0%;">Bưu điện Thành phố, Ho Chi Minh City</div>`)[0];
+                popup_8a640b93c3e467044fe9be0c1acbd339.setContent(html_fcd72efa3a1960321b870e6ac31e1d5b);
+            
+        
+
+        marker_bf04717348a739d68187f2a09022f315.bindPopup(popup_8a640b93c3e467044fe9be0c1acbd339)
+        ;
+
+        
+    
+    
+            var marker_a2daf7cd0602b549a870b5ffaac4b7d4 = L.marker(
+                [10.7610675, 106.6685227],
+                {
+}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+        var popup_ec978003343441125e35e81db63f937e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c127e8aeec2df365404d724a11c40950 = $(`<div id="html_c127e8aeec2df365404d724a11c40950" style="width: 100.0%; height: 100.0%;">Đại học Kinh tế TP.HCM</div>`)[0];
+                popup_ec978003343441125e35e81db63f937e.setContent(html_c127e8aeec2df365404d724a11c40950);
+            
+        
+
+        marker_a2daf7cd0602b549a870b5ffaac4b7d4.bindPopup(popup_ec978003343441125e35e81db63f937e)
+        ;
+
+        
+    
+    
+            var marker_9f8f6ef3c3da5971b7e86dbd219d83c1 = L.marker(
+                [10.7444043, 106.6132626],
+                {
+}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+        var popup_5bbbe1c602f91cb7049956c498571378 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47673ad4bba7948fc8616eed542ffed1 = $(`<div id="html_47673ad4bba7948fc8616eed542ffed1" style="width: 100.0%; height: 100.0%;">AEON Mall Bình Tân, Ho Chi Minh City</div>`)[0];
+                popup_5bbbe1c602f91cb7049956c498571378.setContent(html_47673ad4bba7948fc8616eed542ffed1);
+            
+        
+
+        marker_9f8f6ef3c3da5971b7e86dbd219d83c1.bindPopup(popup_5bbbe1c602f91cb7049956c498571378)
+        ;
+
+        
+    
+    
+            var poly_line_ebc5a344c71e40ed6e345f9a4baf8dff = L.polyline(
+                [[10.7725301, 106.6980365], [10.8179793, 106.6562645]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+            var poly_line_d5819ff31b666e6498f9b833e5539293 = L.polyline(
+                [[10.8179793, 106.6562645], [10.7704843, 106.6695631]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+            var poly_line_fce9a3a0f53199dc6d1c1c475da05163 = L.polyline(
+                [[10.7704843, 106.6695631], [10.7566964, 106.6597263]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+            var poly_line_d99b4d568ae879cd208328963224794e = L.polyline(
+                [[10.7566964, 106.6597263], [10.7950845, 106.7219139]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+            var poly_line_f0484459870d4845cf9d4bf6d26e8faa = L.polyline(
+                [[10.7950845, 106.7219139], [10.7748307, 106.6932718]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+            var poly_line_7ea1996dd764597e0f2488c71a44c954 = L.polyline(
+                [[10.7748307, 106.6932718], [10.7792374, 106.6991514]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+            var poly_line_66b2d58cac45d8aa5fb4ca2ce3fcbce9 = L.polyline(
+                [[10.7792374, 106.6991514], [10.7806054, 106.7006741]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+            var poly_line_661c7526bffaf719b53000f77e9d0fbb = L.polyline(
+                [[10.7806054, 106.7006741], [10.7610675, 106.6685227]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+    
+            var poly_line_24e4fe71fd02738553a6dea1cffebd38 = L.polyline(
+                [[10.7610675, 106.6685227], [10.7444043, 106.6132626]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5c4d3452c00be4600819c0ff51de1747);
+        
+</script>
+</html>

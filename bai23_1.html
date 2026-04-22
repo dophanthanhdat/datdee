@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e7ca26de8904b2c53ec0f693badaed0e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e7ca26de8904b2c53ec0f693badaed0e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e7ca26de8904b2c53ec0f693badaed0e = L.map(
+                "map_e7ca26de8904b2c53ec0f693badaed0e",
+                {
+                    center: [10.761004, 106.668519],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5ed811d366f0d0723b6c54ee74749484 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5ed811d366f0d0723b6c54ee74749484.addTo(map_e7ca26de8904b2c53ec0f693badaed0e);
+        
+    
+            var marker_8ea157562b492fbb0b7f64f93170ebc7 = L.marker(
+                [10.761004, 106.668519],
+                {
+}
+            ).addTo(map_e7ca26de8904b2c53ec0f693badaed0e);
+        
+    
+        var popup_6b25ec28d57a080a1c56f3c0b2ab43cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_343fb16178d8f233b27ec9e54bfe1f4f = $(`<div id="html_343fb16178d8f233b27ec9e54bfe1f4f" style="width: 100.0%; height: 100.0%;">UEH Cơ sở B</div>`)[0];
+                popup_6b25ec28d57a080a1c56f3c0b2ab43cb.setContent(html_343fb16178d8f233b27ec9e54bfe1f4f);
+            
+        
+
+        marker_8ea157562b492fbb0b7f64f93170ebc7.bindPopup(popup_6b25ec28d57a080a1c56f3c0b2ab43cb)
+        ;
+
+        
+    
+    
+            marker_8ea157562b492fbb0b7f64f93170ebc7.bindTooltip(
+                `<div>
+                     Click vào
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cb343b80da309a0d328d579c7dff6f6f = L.marker(
+                [10.7704634, 106.6696456],
+                {
+}
+            ).addTo(map_e7ca26de8904b2c53ec0f693badaed0e);
+        
+    
+        var popup_91d913b0fcd2854098e2803ca2f6e61b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db7fe703260218323f8e0fcb59b993ea = $(`<div id="html_db7fe703260218323f8e0fcb59b993ea" style="width: 100.0%; height: 100.0%;">Vạn Hạnh Mall</div>`)[0];
+                popup_91d913b0fcd2854098e2803ca2f6e61b.setContent(html_db7fe703260218323f8e0fcb59b993ea);
+            
+        
+
+        marker_cb343b80da309a0d328d579c7dff6f6f.bindPopup(popup_91d913b0fcd2854098e2803ca2f6e61b)
+        ;
+
+        
+    
+    
+            marker_cb343b80da309a0d328d579c7dff6f6f.bindTooltip(
+                `<div>
+                     Click vào
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_69ecd1d45aff3035694492c86b89c0c0 = L.marker(
+                [10.769032, 106.670592],
+                {
+}
+            ).addTo(map_e7ca26de8904b2c53ec0f693badaed0e);
+        
+    
+        var popup_85147bb0080731fdafb855384310adfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1fb561bb4fcbf7564fa972a9656689f = $(`<div id="html_f1fb561bb4fcbf7564fa972a9656689f" style="width: 100.0%; height: 100.0%;">Bệnh Viện Nhi Đồng 1</div>`)[0];
+                popup_85147bb0080731fdafb855384310adfa.setContent(html_f1fb561bb4fcbf7564fa972a9656689f);
+            
+        
+
+        marker_69ecd1d45aff3035694492c86b89c0c0.bindPopup(popup_85147bb0080731fdafb855384310adfa)
+        ;
+
+        
+    
+    
+            marker_69ecd1d45aff3035694492c86b89c0c0.bindTooltip(
+                `<div>
+                     Click vào
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0ee0937a52c4b57563d5309c572f7931 = L.marker(
+                [10.765185, 106.679878],
+                {
+}
+            ).addTo(map_e7ca26de8904b2c53ec0f693badaed0e);
+        
+    
+        var popup_cc169f56f35c28baa3806a10aab16dc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1238485a49bd6bd0894bb4cc1208bdb2 = $(`<div id="html_1238485a49bd6bd0894bb4cc1208bdb2" style="width: 100.0%; height: 100.0%;">Công Viên số 1 Lý Thái Tổ</div>`)[0];
+                popup_cc169f56f35c28baa3806a10aab16dc6.setContent(html_1238485a49bd6bd0894bb4cc1208bdb2);
+            
+        
+
+        marker_0ee0937a52c4b57563d5309c572f7931.bindPopup(popup_cc169f56f35c28baa3806a10aab16dc6)
+        ;
+
+        
+    
+    
+            marker_0ee0937a52c4b57563d5309c572f7931.bindTooltip(
+                `<div>
+                     Click vào
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_10d47cd234d391f668fdfe69daa4fca3 = L.marker(
+                [10.7806054, 106.7006741],
+                {
+}
+            ).addTo(map_e7ca26de8904b2c53ec0f693badaed0e);
+        
+    
+        var popup_34cbff700ba2168f5753367e1131a4db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6bb39e8a383150063c35f618cef3e10 = $(`<div id="html_f6bb39e8a383150063c35f618cef3e10" style="width: 100.0%; height: 100.0%;">Bưu Điện Thành Phố</div>`)[0];
+                popup_34cbff700ba2168f5753367e1131a4db.setContent(html_f6bb39e8a383150063c35f618cef3e10);
+            
+        
+
+        marker_10d47cd234d391f668fdfe69daa4fca3.bindPopup(popup_34cbff700ba2168f5753367e1131a4db)
+        ;
+
+        
+    
+    
+            marker_10d47cd234d391f668fdfe69daa4fca3.bindTooltip(
+                `<div>
+                     Click vào
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
